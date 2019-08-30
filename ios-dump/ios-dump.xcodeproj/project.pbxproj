@@ -19,6 +19,7 @@
 		C3847E83231912FC00A791A4 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3847E82231912FC00A791A4 /* ReusableView.swift */; };
 		C3847E852319132500A791A4 /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3847E842319132500A791A4 /* UITableView+Extensions.swift */; };
 		C3847E8723191C9000A791A4 /* UICollectionView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3847E8623191C9000A791A4 /* UICollectionView+Extensions.swift */; };
+		C3847E892319204500A791A4 /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3847E882319204500A791A4 /* Bundle+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		C3847E82231912FC00A791A4 /* ReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ReusableView.swift; path = Protocols/ReusableView.swift; sourceTree = "<group>"; };
 		C3847E842319132500A791A4 /* UITableView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UITableView+Extensions.swift"; path = "Extensions/UITableView+Extensions.swift"; sourceTree = "<group>"; };
 		C3847E8623191C9000A791A4 /* UICollectionView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UICollectionView+Extensions.swift"; path = "Extensions/UICollectionView+Extensions.swift"; sourceTree = "<group>"; };
+		C3847E882319204500A791A4 /* Bundle+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Bundle+Extensions.swift"; path = "Extensions/Bundle+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				C3847E7E2318FC4200A791A4 /* UIStackView+Extensions.swift */,
 				C3847E842319132500A791A4 /* UITableView+Extensions.swift */,
 				C3847E8623191C9000A791A4 /* UICollectionView+Extensions.swift */,
+				C3847E882319204500A791A4 /* Bundle+Extensions.swift */,
 				C3847E82231912FC00A791A4 /* ReusableView.swift */,
 				C3847E7D2318FC1200A791A4 /* App */,
 				C3847E7C2318FC0300A791A4 /* Storyboards */,
@@ -302,6 +305,7 @@
 				C3847E852319132500A791A4 /* UITableView+Extensions.swift in Sources */,
 				C3847E812318FD3A00A791A4 /* UIView+Extensions.swift in Sources */,
 				C3847E4E2318F89400A791A4 /* AppDelegate.swift in Sources */,
+				C3847E892319204500A791A4 /* Bundle+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
