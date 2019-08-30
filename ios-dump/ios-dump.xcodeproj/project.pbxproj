@@ -20,6 +20,8 @@
 		C3847E852319132500A791A4 /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3847E842319132500A791A4 /* UITableView+Extensions.swift */; };
 		C3847E8723191C9000A791A4 /* UICollectionView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3847E8623191C9000A791A4 /* UICollectionView+Extensions.swift */; };
 		C3847E892319204500A791A4 /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3847E882319204500A791A4 /* Bundle+Extensions.swift */; };
+		C3847E8B2319252700A791A4 /* Decodable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3847E8A2319252700A791A4 /* Decodable+Extensions.swift */; };
+		C3847E8D2319268B00A791A4 /* Encodable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3847E8C2319268B00A791A4 /* Encodable+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		C3847E842319132500A791A4 /* UITableView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UITableView+Extensions.swift"; path = "Extensions/UITableView+Extensions.swift"; sourceTree = "<group>"; };
 		C3847E8623191C9000A791A4 /* UICollectionView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UICollectionView+Extensions.swift"; path = "Extensions/UICollectionView+Extensions.swift"; sourceTree = "<group>"; };
 		C3847E882319204500A791A4 /* Bundle+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Bundle+Extensions.swift"; path = "Extensions/Bundle+Extensions.swift"; sourceTree = "<group>"; };
+		C3847E8A2319252700A791A4 /* Decodable+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Decodable+Extensions.swift"; path = "Extensions/Decodable+Extensions.swift"; sourceTree = "<group>"; };
+		C3847E8C2319268B00A791A4 /* Encodable+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Encodable+Extensions.swift"; path = "Extensions/Encodable+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +117,8 @@
 				C3847E7E2318FC4200A791A4 /* UIStackView+Extensions.swift */,
 				C3847E842319132500A791A4 /* UITableView+Extensions.swift */,
 				C3847E8623191C9000A791A4 /* UICollectionView+Extensions.swift */,
+				C3847E8A2319252700A791A4 /* Decodable+Extensions.swift */,
+				C3847E8C2319268B00A791A4 /* Encodable+Extensions.swift */,
 				C3847E882319204500A791A4 /* Bundle+Extensions.swift */,
 				C3847E82231912FC00A791A4 /* ReusableView.swift */,
 				C3847E7D2318FC1200A791A4 /* App */,
@@ -302,8 +308,10 @@
 				C3847E7F2318FC4200A791A4 /* UIStackView+Extensions.swift in Sources */,
 				C3847E83231912FC00A791A4 /* ReusableView.swift in Sources */,
 				C3847E502318F89400A791A4 /* ViewController.swift in Sources */,
+				C3847E8B2319252700A791A4 /* Decodable+Extensions.swift in Sources */,
 				C3847E852319132500A791A4 /* UITableView+Extensions.swift in Sources */,
 				C3847E812318FD3A00A791A4 /* UIView+Extensions.swift in Sources */,
+				C3847E8D2319268B00A791A4 /* Encodable+Extensions.swift in Sources */,
 				C3847E4E2318F89400A791A4 /* AppDelegate.swift in Sources */,
 				C3847E892319204500A791A4 /* Bundle+Extensions.swift in Sources */,
 			);
