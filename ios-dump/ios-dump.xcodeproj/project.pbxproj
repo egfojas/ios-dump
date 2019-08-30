@@ -16,6 +16,8 @@
 		C3847E6E2318F89500A791A4 /* ios_dumpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3847E6D2318F89500A791A4 /* ios_dumpUITests.swift */; };
 		C3847E7F2318FC4200A791A4 /* UIStackView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3847E7E2318FC4200A791A4 /* UIStackView+Extensions.swift */; };
 		C3847E812318FD3A00A791A4 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3847E802318FD3A00A791A4 /* UIView+Extensions.swift */; };
+		C3847E83231912FC00A791A4 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3847E82231912FC00A791A4 /* ReusableView.swift */; };
+		C3847E852319132500A791A4 /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3847E842319132500A791A4 /* UITableView+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		C3847E6F2318F89500A791A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3847E7E2318FC4200A791A4 /* UIStackView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIStackView+Extensions.swift"; path = "Extensions/UIStackView+Extensions.swift"; sourceTree = "<group>"; };
 		C3847E802318FD3A00A791A4 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIView+Extensions.swift"; path = "Extensions/UIView+Extensions.swift"; sourceTree = "<group>"; };
+		C3847E82231912FC00A791A4 /* ReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ReusableView.swift; path = Protocols/ReusableView.swift; sourceTree = "<group>"; };
+		C3847E842319132500A791A4 /* UITableView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UITableView+Extensions.swift"; path = "Extensions/UITableView+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 			children = (
 				C3847E802318FD3A00A791A4 /* UIView+Extensions.swift */,
 				C3847E7E2318FC4200A791A4 /* UIStackView+Extensions.swift */,
+				C3847E842319132500A791A4 /* UITableView+Extensions.swift */,
+				C3847E82231912FC00A791A4 /* ReusableView.swift */,
 				C3847E7D2318FC1200A791A4 /* App */,
 				C3847E7C2318FC0300A791A4 /* Storyboards */,
 				C3847E7B2318FBF300A791A4 /* Resources */,
@@ -287,7 +293,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3847E7F2318FC4200A791A4 /* UIStackView+Extensions.swift in Sources */,
+				C3847E83231912FC00A791A4 /* ReusableView.swift in Sources */,
 				C3847E502318F89400A791A4 /* ViewController.swift in Sources */,
+				C3847E852319132500A791A4 /* UITableView+Extensions.swift in Sources */,
 				C3847E812318FD3A00A791A4 /* UIView+Extensions.swift in Sources */,
 				C3847E4E2318F89400A791A4 /* AppDelegate.swift in Sources */,
 			);
