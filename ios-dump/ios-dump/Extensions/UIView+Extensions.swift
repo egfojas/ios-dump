@@ -43,13 +43,16 @@ extension UIView {
 
 extension UIView {
     // MARK: Subviews manipulations
-    
-    func moveToBack() {
-        superview?.sendSubviewToBack(self)
+    func addSubviews(_ views: [UIView]) {
+        for view in views {
+            addSubview(view)
+        }
     }
     
-    func moveToFront() {
-        superview?.bringSubviewToFront(self)
+    func addSubviews(_ views: UIView...) {
+        for view in views {
+            addSubview(view)
+        }
     }
     
     func removeSubviews() {
@@ -64,6 +67,14 @@ extension UIView {
         }
     }
     
+    func moveToBack() {
+        superview?.sendSubviewToBack(self)
+    }
+    
+    func moveToFront() {
+        superview?.bringSubviewToFront(self)
+    }
+
     func addCenteredSubview(_ view: UIView) {
         addSubview(view)
         if view.translatesAutoresizingMaskIntoConstraints == true {
@@ -72,6 +83,28 @@ extension UIView {
         else {
             view.centerXAnchor.constraint(equalTo: self.centerXAnchor).isActive = true
             view.centerYAnchor.constraint(equalTo: self.centerYAnchor).isActive = true
+        }
+    }
+    
+    func boundToSuperview(withInset inset: UIEdgeInsets? = nil) {
+        guard let superview = superview else { return }
+        let topInset = inset?.top ?? 0.0
+        let leftInset = inset?.left ?? 0.0
+        let bottomInset = inset?.bottom ?? 0.0
+        let rightInset = inset?.right ?? 0.0
+        
+        if translatesAutoresizingMaskIntoConstraints == true {
+            let x = superview.bounds.origin.x + rightInset
+            let y = superview.bounds.origin.y + topInset
+            let width = superview.bounds.width - leftInset
+            let height = superview.bounds.height - bottomInset
+            self.frame = CGRect(x: x, y: y, width: width, height: height)
+        }
+        else {
+            leadingAnchor.constraint(equalTo: superview.leadingAnchor, constant: leftInset).isActive = true
+            trailingAnchor.constraint(equalTo: superview.trailingAnchor, constant: -rightInset).isActive = true
+            bottomAnchor.constraint(equalTo: superview.bottomAnchor, constant: -bottomInset).isActive = true
+            topAnchor.constraint(equalTo: superview.topAnchor, constant: topInset).isActive = true
         }
     }
 }
